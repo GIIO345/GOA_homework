@@ -1,4 +1,4 @@
-string_number="154"
-integer_number=int(string_number)
-print("string",string_number)
-print("integer",integer_number)
+#1) დაწერეთ პითონის პროგრამა, რომელიც ქმნის ჯერ სტრინგს შემდეგ ინტეჯერს 
+print("Hello world")
+print(5)
+
