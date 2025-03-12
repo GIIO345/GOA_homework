@@ -45,5 +45,4 @@ surname=input("enter your surname: ")
 def initials(name,surname):
     return f"{name[0]}.{surname}"
 print(initials(name,surname))
-
 """
