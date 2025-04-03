@@ -9,9 +9,10 @@ for i in range(1,100):
         print(i)
 for i in range(250,500,10):
     print(i)
+
 sityva=input("enter a word")
 for i in sityva:
-    if i=="_":
+    if i [0]=="_":
         print("True")
         break
 else:

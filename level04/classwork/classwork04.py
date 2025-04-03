@@ -13,8 +13,12 @@ elif num1>0:
 elif num1<0:
     print("number is negative")
    #) მომხმარებლს შემოატანინეთ 2 რიცხვი და გამოიტანეთ უდიდესი ტერმინალში. 
-    
-    
+number=int(input("enter a number: "))
+number2=int(input("enter a number2: "))
+if number>number2:
+    print(number)
+elif number2>number:
+    print(number2)
     
     #4) შემოაყვანინეთ მომხმარებელს რიცხვი. თუ ის 5-ზე იყოფა გამოიტანეთ შემოყვანილი რიცხვი, ხოლო თუ არ იყოფა მაშინ გამოიტანეთ რიცხვი 0.
 ricxvi=int(input("shemoiyvanet ricxvi"))
@@ -24,6 +28,6 @@ if ricxvi%5==0:
 elif ricxvi/5>=1:
     print("0")
 #5) შეამოწმეთ თუ მომხმარებლის შემოყვანილი რიცხვი ახალი საუკუნის რიცხვია. თუ ახალი საუკუნის არის (მაგ 2000) გამოიტანეთ "ახალი საუკუნე".
-nummm=("enter numm")
+nummm=int(input(("enter numm")))
 if nummm>2000:
     print("ახალი საუკუნე")
