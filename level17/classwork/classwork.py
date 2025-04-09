@@ -1,10 +1,10 @@
 #შექმენით manual_sum ფუნქცია
 
 
-list=[23,5,4,32,23,5,2,]
+listd=[23,5,4,32,23,5,2,]
 def manual_sum(l):
     count=0
-    for i in list:
+    for i in listd:
         count+=i
     return count
 print(manual_sum(list))
