@@ -30,40 +30,9 @@ print(more(listk,listj))
         
 
 #შექმენით ფუნქცია რომელიც იღებ არგუმენტებად ორ ლისტს და აბრუნებს დადებითი რიცხვების რაოდენობასა და უარყოფითების ჯამს (ცალ-ცალკე).
-listo=[23,-4254,-35,-3,-65,7,]
-listp=[3,34,-2,4,-35,5,-65,]
-def func(listo,listp):
-    sum1=0
-    sum2=0
-    count1=0
-    count2=0
-    for i in listo:
-        if i<0:
-            sum1+=i
-    for i in listp:
-        if i<0:
-            sum2+=i
-    for i in listo:
-        if i>0:
-            count1+=1
-    for i in listp:
-        if i>0:
-            count2+=1
-    return f"-listo{sum1}\n-listp{sum2}\n+listo{count1}\n+listp{count2}"
-print(func(listo,listp))
 
-listn = [23, -4254, -35, -3, -65, 7]
-listb = [3, 34, -2, 4, -35, 5, -65]
 
-def funct(listo, listp):
-    sum1 = sum(i for i in listn if i < 0)
-    sum2 = sum(i for i in listb if i < 0)
-    count1 = sum(1 for i in listn if i > 0)
-    count2 = sum(1 for i in listb if i > 0)
-    
-    return f"-listn {sum1}\n-listb {sum2}\n+listn {count1}\n+listb {count2}"
 
-print(funct(listn, listb))
 
 
 
