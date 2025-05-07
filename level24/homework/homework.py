@@ -19,7 +19,9 @@ def to_alternating_case(string):
     return word
 
 #kata3
-
+def abbrev_name(name):
+    name1,name2=name.split()
+    return f"{name1[0].upper()}.{name2[0].upper()}"
 
 
 #kata4
@@ -33,3 +35,5 @@ def rps(p1, p2):
         return "Player 2 won!"
 
 #kata5
+def feast(beast, dish):
+    return beast[0]==dish[0] and beast[-1]==dish[-1]
