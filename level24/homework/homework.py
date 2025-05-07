@@ -19,3 +19,17 @@ def to_alternating_case(string):
     return word
 
 #kata3
+
+
+
+#kata4
+def rps(p1, p2):
+    
+    if (p1=="rock" and p2=="rock") or (p1=="paper" and p2=="paper") or (p1=="scissors" and p2=="scissors"):
+        return "Draw!"
+    elif (p1=="scissors" and p2=="paper") or (p1=="rock" and p2=="scissors") or (p1=="paper" and p2=="rock") :
+        return "Player 1 won!"
+    else:
+        return "Player 2 won!"
+
+#kata5
