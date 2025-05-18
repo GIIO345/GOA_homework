@@ -1,0 +1,21 @@
+<!--1) შექმენით 3 input და 3 label ელემენტი, იმეილი, პასვორდი და სახელი. ჩასვით ისინი form tag-ში და არ დგავაიწყდეთ input-ების და label-ების დაკავშირება.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="username">Username:</label>
+         <input type="text" id="username" name="username" placeholder="giorgi" minlength="5" maxlength="10" required>
+
+         <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="5" maxlength="10" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="nga@gmail.com">
+    </form>
+</body>
+</html>
