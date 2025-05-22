@@ -54,3 +54,49 @@ def summ(num1,num2,num3,num4,num5):
     res+=num1,num2,num3,num4,num5
     return sum(res)
 print(summ(num1,num2,num3,num4,num5))
+
+
+
+#განახლებული კოდის ვერსია
+# მომხმარებელი შეიყვანს დღეს, თვეს და წელიწადს ცალ-ცალკე. დაბეჭდე თარიღი შემდეგი ფორმატით: "დღე/თვე/წელი",
+
+# მაგალითად:,
+# შეიყვანე დღე: 14,
+# შეიყვანე თვე: 5,
+# შეიყვანე წელი: 2025,
+# თარიღი: 14/5/2025
+
+
+def time(day,month,year):
+    months=["January, February, March, April, May, June, July, August, September, October, November, December"]
+    for i in months:
+        if month.lower()==i:
+            month=i
+        elif month is int and 1>=abs(month)<=12:
+            pass
+    if day is str and 1>=abs(int(day))<=31:
+        day=abs(int(day))
+    if year is str:
+        year=abs(int(year))
+    return f"{day}/{month}/{year}"
+print(time("21","13","2000"))
+
+
+
+
+    
+# მომხმარებელს შემოატანინე 5 რიცხვი ერთის შემდეგ მეორე, შეინახე ისინი სიაში (list-ში) და ბოლოს დაბეჭდე მათი ჯამი.
+
+def summe(n1, n2, n3, n4, n5):
+    return sum([n1, n2, n3, n4, n5])
+print(summe(23,3,2,5,6))
+
+# მომხმარებელი შეიყვანს პაროლს. თუ პაროლი 8-ზე ნაკლები სიმბოლოა — დაბეჭდე "პაროლი ძალიან მოკლეა", თუ 8 ან მეტი — "პაროლი მიღებულია".
+a=input("enter your password: ")
+def ps(a):
+    while len(a)<8:
+        print("თვენი პაროლი ძალიან მოკლეა")
+        a=input("enter your password: ")
+    return "პაროლი მიღებულიაა"
+print(ps(a))
+    
