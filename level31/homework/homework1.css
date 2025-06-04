@@ -1,0 +1,19 @@
+#nf{
+    list-style-position: inside;
+}
+
+#no{
+    list-style-position: outside;
+}
+
+#nav a:click{
+    color: blue;
+    text-decoration: none;
+
+}
+
+
+#nav a:visited{
+    color: gray;
+
+}
