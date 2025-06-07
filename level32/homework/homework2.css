@@ -1,0 +1,87 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/gtr.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.858) ;
+    height: 100px;
+
+}
+
+header:hover{
+
+    background-color: rgba(232, 210, 210, 0.123);
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+    transition-delay: 5ms;
+    height: 110px;
+
+
+}
+
+
+#navv,li,a{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    list-style: none;
+}
+
+.logo {
+
+  font-size: 40px;
+  color: #ffffff; /* White text */
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+#navv li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+
+
+#nsn a{
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+#main{
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#GTRN{
+    margin-top: 110px;
+    margin-left: 230px;
+ 
+}
