@@ -16,3 +16,5 @@
     #     part = letter.upper() + letter.lower() * i
     #     result.append(part)
     # return "-".join(result)
+
+
